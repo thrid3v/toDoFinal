@@ -1,4 +1,4 @@
-# Cute Todo App
+# TO DO APP FOR COUPLES
 
 A delightful and playful todo application with a cute aesthetic, featuring personal and shared tasks.
 
@@ -10,32 +10,6 @@ A delightful and playful todo application with a cute aesthetic, featuring perso
 - Responsive layout
 - User authentication
 - Task sharing capabilities
-
-## Project Structure
-
-```
-thridev/
-├── public/
-│   ├── css/
-│   │   └── todo.css         # Main stylesheet with all styles
-│   ├── js/
-│   │   ├── auth.js          # Authentication logic
-│   │   ├── todo.js          # Todo functionality
-│   │   └── utils.js         # Utility functions
-│   └── index.html           # Main HTML file
-├── server/
-│   ├── config/
-│   │   └── db.js           # Database configuration
-│   ├── routes/
-│   │   ├── auth.js         # Authentication routes
-│   │   └── todos.js        # Todo routes
-│   ├── models/
-│   │   ├── Todo.js         # Todo model
-│   │   └── User.js         # User model
-│   └── server.js           # Main server file
-└── README.md               # Project documentation
-
-```
 
 ## Color Scheme
 
@@ -64,16 +38,6 @@ Personal Tasks:
 2. Install dependencies:
    ```bash
    npm install
-   ```
-3. Set up your environment variables
-4. Start the server:
-   ```bash
-   npm start
-   ```
+3. To run the app
+   npm run start:dev
 
-## Dependencies
-
-- Express.js
-- MongoDB
-- Node.js
-- Google Fonts (Poppins and Quicksand)
